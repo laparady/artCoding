@@ -1,0 +1,18 @@
+void setup(){
+  size(1000,400);
+  float s,u,h;
+  s = 100;  
+  u = 200;
+  h = 150;
+  fill(255);
+  rect(s,u,h,h/2);
+  rect(s+h,u,h,h/2);
+  rect(s,u+h/2,h,h/2);
+  fill(255,0,0);
+  rect(s+h,u+h/2,h,h/2);
+  rect(s,u,h,h/2);
+  rect(s+h,u,h,h/2);
+  rect(s,u+h/2,h,h/2);
+  fill(255,0,0);
+  rect(s+h,u+h/2,h,h/2);
+}
